@@ -235,16 +235,14 @@ const syncData = async () => {
 
   </div>
 
-  <!-- Save button fixed above bottom nav -->
-  <div class="fixed bottom-[6rem] left-0 right-0 z-10 px-5 max-w-lg mx-auto">
+    <!-- Save button -->
     <button
       @click="save"
       :disabled="isSaving"
-      class="w-full py-3.5 rounded-DEFAULT text-body-lg font-semibold text-text-inverse bg-primary transition-colors hover:bg-primary-light active:bg-primary disabled:opacity-50 shadow"
+      class="w-full py-3.5 rounded-DEFAULT text-body-lg font-semibold text-text-inverse bg-primary transition-colors hover:bg-primary-light active:bg-primary disabled:opacity-50"
     >
       {{ isSaving ? 'Đang lưu...' : 'Lưu thay đổi' }}
     </button>
-  </div>
 
   <!-- User picker bottom sheet -->
   <Teleport to="body">
