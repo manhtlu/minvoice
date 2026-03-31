@@ -85,12 +85,12 @@ const syncData = async () => {
 
       // Import categories
       if (data.categories?.length) {
-        await db.categories.bulkPut(data.categories)
+        await db.categories.bulkPut(data.categories as any)
       }
 
       // Import transactions
       if (data.transactions?.length) {
-        await db.transactions.bulkPut(data.transactions)
+        await db.transactions.bulkPut(data.transactions as any)
       }
 
       // Import budgets

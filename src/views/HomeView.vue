@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue'
+import { ref, computed } from 'vue'
 import { db } from '../db'
 import { liveQuery } from 'dexie'
 import { useObservable } from '../composables/useObservable'

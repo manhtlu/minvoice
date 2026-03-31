@@ -33,8 +33,8 @@ const filteredCategories = computed(() =>
 // Bottom sheet state
 const showSheet = ref(false)
 const newName = ref('')
-const newIcon = ref(CATEGORY_ICONS[0])
-const newColor = ref(CATEGORY_COLORS[0])
+const newIcon = ref<string>(CATEGORY_ICONS[0])
+const newColor = ref<string>(CATEGORY_COLORS[0])
 
 const openSheet = () => {
   newName.value = ''
@@ -75,15 +75,15 @@ const longPressTimer = ref<ReturnType<typeof setTimeout> | null>(null)
 const editTarget = ref<Category | null>(null)
 const showEditSheet = ref(false)
 const editName = ref('')
-const editIcon = ref(CATEGORY_ICONS[0])
-const editColor = ref(CATEGORY_COLORS[0])
+const editIcon = ref<string>(CATEGORY_ICONS[0])
+const editColor = ref<string>(CATEGORY_COLORS[0])
 
 const onPointerDown = (cat: Category) => {
   longPressTimer.value = setTimeout(() => {
     editTarget.value = cat
     editName.value = cat.name
-    editIcon.value = cat.icon as typeof CATEGORY_ICONS[number]
-    editColor.value = cat.color as typeof CATEGORY_COLORS[number]
+    editIcon.value = cat.icon
+    editColor.value = cat.color
     showEditSheet.value = true
   }, 600)
 }
