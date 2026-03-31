@@ -18,8 +18,8 @@ const isActive = (name: string) => {
 </script>
 
 <template>
-  <nav class="fixed bottom-0 left-0 right-0 z-20 pb-[env(safe-area-inset-bottom)]">
-    <div class="bg-surface-lowest rounded-t-md shadow-lg mx-auto max-w-lg flex items-center justify-around h-20">
+  <nav class="fixed bottom-0 left-0 right-0 z-20">
+    <div class="bg-surface-lowest rounded-t-md shadow-lg mx-auto max-w-lg flex items-center justify-around h-20 pb-[env(safe-area-inset-bottom)]">
       <template v-for="item in navItems" :key="item.name">
         <!-- Center add button -->
         <RouterLink
