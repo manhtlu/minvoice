@@ -239,7 +239,7 @@ const syncData = async () => {
     <button
       @click="save"
       :disabled="isSaving"
-      class="w-full py-3.5 rounded-DEFAULT text-body-lg font-semibold text-text-inverse bg-primary transition-colors hover:bg-primary-light active:bg-primary disabled:opacity-50"
+      class="w-full mt-6 py-3.5 rounded-DEFAULT text-body-lg font-semibold text-text-inverse bg-primary transition-colors hover:bg-primary-light active:bg-primary disabled:opacity-50"
     >
       {{ isSaving ? 'Đang lưu...' : 'Lưu thay đổi' }}
     </button>
