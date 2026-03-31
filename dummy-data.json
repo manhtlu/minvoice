@@ -1,0 +1,417 @@
+{
+  "version": 1,
+  "exported_at": 1773978300000,
+  "user": {
+    "id": "u-001",
+    "name": "Manh Nguyen",
+    "email": "manh@example.com",
+    "created_at": 1704067200000
+  },
+  "categories": [
+    {
+      "id": "cat-inc-01",
+      "user_id": null,
+      "name": "Salary",
+      "type": "income",
+      "icon": "PhMoney",
+      "color": "#22c55e",
+      "sort_order": 1,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-inc-02",
+      "user_id": null,
+      "name": "Freelance",
+      "type": "income",
+      "icon": "PhLaptop",
+      "color": "#3b82f6",
+      "sort_order": 2,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-inc-03",
+      "user_id": null,
+      "name": "Gift",
+      "type": "income",
+      "icon": "PhGift",
+      "color": "#f59e0b",
+      "sort_order": 3,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-exp-01",
+      "user_id": null,
+      "name": "Food & Drink",
+      "type": "expense",
+      "icon": "PhForkKnife",
+      "color": "#ef4444",
+      "sort_order": 1,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-exp-02",
+      "user_id": null,
+      "name": "Transport",
+      "type": "expense",
+      "icon": "PhMotorcycle",
+      "color": "#8b5cf6",
+      "sort_order": 2,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-exp-03",
+      "user_id": null,
+      "name": "Shopping",
+      "type": "expense",
+      "icon": "PhShoppingCart",
+      "color": "#ec4899",
+      "sort_order": 3,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-exp-04",
+      "user_id": null,
+      "name": "Bills & Utilities",
+      "type": "expense",
+      "icon": "PhLightning",
+      "color": "#f97316",
+      "sort_order": 4,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-exp-05",
+      "user_id": null,
+      "name": "Entertainment",
+      "type": "expense",
+      "icon": "PhFilmSlate",
+      "color": "#06b6d4",
+      "sort_order": 5,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-exp-06",
+      "user_id": null,
+      "name": "Health",
+      "type": "expense",
+      "icon": "PhPill",
+      "color": "#14b8a6",
+      "sort_order": 6,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-exp-07",
+      "user_id": "u-001",
+      "name": "Coffee",
+      "type": "expense",
+      "icon": "PhCoffee",
+      "color": "#92400e",
+      "sort_order": 7,
+      "is_archived": false,
+      "created_at": 1704067200000
+    },
+    {
+      "id": "cat-exp-08",
+      "user_id": null,
+      "name": "Rent",
+      "type": "expense",
+      "icon": "PhHouse",
+      "color": "#64748b",
+      "sort_order": 8,
+      "is_archived": false,
+      "created_at": 1704067200000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn-001",
+      "user_id": "u-001",
+      "category_id": "cat-inc-01",
+      "category_type": "income",
+      "amount": 25000000,
+      "note": "Lương tháng 3",
+      "transaction_date": 1772326800000,
+      "tags": ["salary"],
+      "created_at": 1772326800000,
+      "updated_at": 1772326800000
+    },
+    {
+      "id": "txn-002",
+      "user_id": "u-001",
+      "category_id": "cat-exp-08",
+      "category_type": "expense",
+      "amount": 5000000,
+      "note": "Tiền nhà tháng 3",
+      "transaction_date": 1772326800000,
+      "tags": ["monthly"],
+      "created_at": 1772326800000,
+      "updated_at": 1772326800000
+    },
+    {
+      "id": "txn-003",
+      "user_id": "u-001",
+      "category_id": "cat-exp-01",
+      "category_type": "expense",
+      "amount": 55000,
+      "note": "Phở bò Lý Quốc Sư",
+      "transaction_date": 1772427600000,
+      "tags": [],
+      "created_at": 1772427600000,
+      "updated_at": 1772427600000
+    },
+    {
+      "id": "txn-004",
+      "user_id": "u-001",
+      "category_id": "cat-exp-07",
+      "category_type": "expense",
+      "amount": 45000,
+      "note": "Highlands",
+      "transaction_date": 1772501400000,
+      "tags": ["coffee"],
+      "created_at": 1772501400000,
+      "updated_at": 1772501400000
+    },
+    {
+      "id": "txn-005",
+      "user_id": "u-001",
+      "category_id": "cat-exp-02",
+      "category_type": "expense",
+      "amount": 30000,
+      "note": "Grab đi làm",
+      "transaction_date": 1772596800000,
+      "tags": [],
+      "created_at": 1772596800000,
+      "updated_at": 1772596800000
+    },
+    {
+      "id": "txn-006",
+      "user_id": "u-001",
+      "category_id": "cat-exp-01",
+      "category_type": "expense",
+      "amount": 75000,
+      "note": "Cơm trưa văn phòng",
+      "transaction_date": 1772694900000,
+      "tags": [],
+      "created_at": 1772694900000,
+      "updated_at": 1772694900000
+    },
+    {
+      "id": "txn-007",
+      "user_id": "u-001",
+      "category_id": "cat-exp-03",
+      "category_type": "expense",
+      "amount": 350000,
+      "note": "Áo thun Uniqlo",
+      "transaction_date": 1772799600000,
+      "tags": ["clothing"],
+      "created_at": 1772799600000,
+      "updated_at": 1772799600000
+    },
+    {
+      "id": "txn-008",
+      "user_id": "u-001",
+      "category_id": "cat-exp-05",
+      "category_type": "expense",
+      "amount": 120000,
+      "note": "CGV xem phim",
+      "transaction_date": 1772852400000,
+      "tags": [],
+      "created_at": 1772852400000,
+      "updated_at": 1772852400000
+    },
+    {
+      "id": "txn-009",
+      "user_id": "u-001",
+      "category_id": "cat-inc-02",
+      "category_type": "income",
+      "amount": 5000000,
+      "note": "Fix bug cho client",
+      "transaction_date": 1772958600000,
+      "tags": ["freelance"],
+      "created_at": 1772958600000,
+      "updated_at": 1772958600000
+    },
+    {
+      "id": "txn-010",
+      "user_id": "u-001",
+      "category_id": "cat-exp-04",
+      "category_type": "expense",
+      "amount": 500000,
+      "note": "Tiền điện tháng 3",
+      "transaction_date": 1773021600000,
+      "tags": ["monthly"],
+      "created_at": 1773021600000,
+      "updated_at": 1773021600000
+    },
+    {
+      "id": "txn-011",
+      "user_id": "u-001",
+      "category_id": "cat-exp-04",
+      "category_type": "expense",
+      "amount": 200000,
+      "note": "Internet FPT",
+      "transaction_date": 1773122400000,
+      "tags": ["monthly"],
+      "created_at": 1773122400000,
+      "updated_at": 1773122400000
+    },
+    {
+      "id": "txn-012",
+      "user_id": "u-001",
+      "category_id": "cat-exp-01",
+      "category_type": "expense",
+      "amount": 180000,
+      "note": "Đi ăn lẩu với bạn",
+      "transaction_date": 1773223200000,
+      "tags": [],
+      "created_at": 1773223200000,
+      "updated_at": 1773223200000
+    },
+    {
+      "id": "txn-013",
+      "user_id": "u-001",
+      "category_id": "cat-exp-06",
+      "category_type": "expense",
+      "amount": 250000,
+      "note": "Khám răng",
+      "transaction_date": 1773320400000,
+      "tags": [],
+      "created_at": 1773320400000,
+      "updated_at": 1773320400000
+    },
+    {
+      "id": "txn-014",
+      "user_id": "u-001",
+      "category_id": "cat-exp-07",
+      "category_type": "expense",
+      "amount": 55000,
+      "note": "The Coffee House",
+      "transaction_date": 1773372600000,
+      "tags": ["coffee"],
+      "created_at": 1773372600000,
+      "updated_at": 1773372600000
+    },
+    {
+      "id": "txn-015",
+      "user_id": "u-001",
+      "category_id": "cat-exp-02",
+      "category_type": "expense",
+      "amount": 100000,
+      "note": "Đổ xăng",
+      "transaction_date": 1773471600000,
+      "tags": [],
+      "created_at": 1773471600000,
+      "updated_at": 1773471600000
+    },
+    {
+      "id": "txn-016",
+      "user_id": "u-001",
+      "category_id": "cat-exp-01",
+      "category_type": "expense",
+      "amount": 65000,
+      "note": "Bún chả Hàng Mành",
+      "transaction_date": 1773540000000,
+      "tags": [],
+      "created_at": 1773540000000,
+      "updated_at": 1773540000000
+    },
+    {
+      "id": "txn-017",
+      "user_id": "u-001",
+      "category_id": "cat-inc-03",
+      "category_type": "income",
+      "amount": 1000000,
+      "note": "Mừng sinh nhật",
+      "transaction_date": 1773639000000,
+      "tags": [],
+      "created_at": 1773639000000,
+      "updated_at": 1773639000000
+    },
+    {
+      "id": "txn-018",
+      "user_id": "u-001",
+      "category_id": "cat-exp-03",
+      "category_type": "expense",
+      "amount": 890000,
+      "note": "Tai nghe bluetooth",
+      "transaction_date": 1773720000000,
+      "tags": ["tech"],
+      "created_at": 1773720000000,
+      "updated_at": 1773720000000
+    },
+    {
+      "id": "txn-019",
+      "user_id": "u-001",
+      "category_id": "cat-exp-01",
+      "category_type": "expense",
+      "amount": 45000,
+      "note": "Cơm tấm",
+      "transaction_date": 1773824400000,
+      "tags": [],
+      "created_at": 1773824400000,
+      "updated_at": 1773824400000
+    },
+    {
+      "id": "txn-020",
+      "user_id": "u-001",
+      "category_id": "cat-exp-02",
+      "category_type": "expense",
+      "amount": 35000,
+      "note": "Grab về nhà",
+      "transaction_date": 1773882000000,
+      "tags": [],
+      "created_at": 1773882000000,
+      "updated_at": 1773882000000
+    }
+  ],
+  "budgets": [
+    {
+      "id": "bgt-001",
+      "user_id": "u-001",
+      "category_id": "cat-exp-01",
+      "amount": 500000,
+      "month": "2026-03",
+      "created_at": 1772326800000
+    },
+    {
+      "id": "bgt-002",
+      "user_id": "u-001",
+      "category_id": "cat-exp-03",
+      "amount": 1000000,
+      "month": "2026-03",
+      "created_at": 1772326800000
+    },
+    {
+      "id": "bgt-003",
+      "user_id": "u-001",
+      "category_id": "cat-exp-02",
+      "amount": 200000,
+      "month": "2026-03",
+      "created_at": 1772326800000
+    },
+    {
+      "id": "bgt-004",
+      "user_id": "u-001",
+      "category_id": "cat-exp-04",
+      "amount": 800000,
+      "month": "2026-03",
+      "created_at": 1772326800000
+    },
+    {
+      "id": "bgt-005",
+      "user_id": "u-001",
+      "category_id": "cat-exp-07",
+      "amount": 80000,
+      "month": "2026-03",
+      "created_at": 1772326800000
+    }
+  ]
+}

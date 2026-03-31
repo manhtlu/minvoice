@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Font ── */
+  --font-sans: "Manrope", system-ui, sans-serif;
+
+  /* ── Colors: Core Palette ── */
+  --color-primary: #064E3B;
+  --color-primary-light: #0D7355;
+  --color-income: #10B981;
+  --color-income-light: #D1FAE5;
+  --color-expense: #89121E;
+  --color-expense-light: #FDE2E4;
+
+  /* ── Colors: Surfaces (Tonal Layering) ── */
+  --color-surface: #F8F9FA;
+  --color-surface-low: #F1F3F5;
+  --color-surface-high: #E9ECEF;
+  --color-surface-lowest: #FFFFFF;
+
+  /* ── Colors: Text ── */
+  --color-text: #1A1A2E;
+  --color-text-muted: #6B7280;
+  --color-text-inverse: #FFFFFF;
+
+  /* ── Colors: Utility ── */
+  --color-outline: rgba(0, 0, 0, 0.06);
+  --color-ghost-border: rgba(6, 78, 59, 0.15);
+
+  /* ── Colors: Pill Tags (Richer Palette) ── */
+  --color-tag-purple: #8B5CF6;
+  --color-tag-purple-bg: #EDE9FE;
+  --color-tag-amber: #D97706;
+  --color-tag-amber-bg: #FEF3C7;
+  --color-tag-blue: #3B82F6;
+  --color-tag-blue-bg: #DBEAFE;
+  --color-tag-pink: #EC4899;
+  --color-tag-pink-bg: #FCE7F3;
+
+  /* ── Border Radius ── */
+  --radius-sm: 0.5rem;
+  --radius-DEFAULT: 1rem;
+  --radius-md: 1.5rem;
+  --radius-input: 0.75rem;
+
+  /* ── Shadows: Ambient (diffused, no pure black) ── */
+  --shadow-sm: 0 2px 8px rgba(6, 78, 59, 0.04);
+  --shadow-DEFAULT: 0 4px 20px rgba(6, 78, 59, 0.06);
+  --shadow-lg: 0 8px 30px rgba(6, 78, 59, 0.08);
+
+  /* ── Typography Scale ── */
+  --text-display-lg: 3.5rem;
+  --text-headline-md: 1.75rem;
+  --text-title-md: 1.125rem;
+  --text-body-lg: 1rem;
+  --text-label-md: 0.75rem;
+}
+
+/* ── Base Styles ── */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
