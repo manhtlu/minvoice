@@ -14,7 +14,7 @@ export default defineConfig({
         short_name: 'minvoice',
         description: 'Quản lý thu chi cá nhân',
         theme_color: '#064E3B',
-        background_color: '#F8F9FA',
+        background_color: '#FFFFFF',
         display: 'standalone',
         start_url: '/',
         icons: [
@@ -31,7 +31,7 @@ export default defineConfig({
             purpose: 'any',
           },
           {
-            src: '/favicon.png',
+            src: '/favicon-maskable.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
